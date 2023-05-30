@@ -11,7 +11,11 @@ img {
 .headers{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #BE2B50;
+    color: #fff;
+    background: #ea2e49;
+   display:inline-block;
+   margin-bottom:1em;
+   padding:0.5em 1em;
     
 }
 .movies{
