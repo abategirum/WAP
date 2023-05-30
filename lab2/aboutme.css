@@ -1,0 +1,22 @@
+
+.container{
+    padding: 100px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.headers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #625e5e;
+}
+.movies{
+    list-style:decimal;
+}
+.footer-img{
+    width: 100px;
+    height: 100px;
+}
