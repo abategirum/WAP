@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>lab 3</title>
+</head>
+<body>
+    <div class="top_menu">
+        <i class="fas fa-umbrella-beach fa-4x"></i>
+        <h3>Welcom, <span class="name">Girum</span></h3>
+        <button class="logout_button">Logout</button>
+        
+
+    </div>
+    <hr />
+    <div class="product_list_wrapper">
+        <header>Product List</header>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>8</td>
+                <td><i class="fa fa-solid fa-cart-plus fa-2x"></i></td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.99</td>
+                <td>5</td>
+                <td><i class="fa fa-solid fa-cart-plus fa-2x"></i></td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>13</td>
+                <td><i class="fa fa-solid fa-cart-plus fa-2x"></i></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="cart_wrapper">
+        <header>Your Shopping Cart</header>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td>
+                    <div class="quantity-input">
+                        <button class="minus-btn">-</button>
+                        <input type="number" class="quantity" value="1" min="1">
+                        <button class="plus-btn">+</button>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>290.99</td>
+                <td>
+                    <div class="quantity-input">
+                        <button class="minus-btn">-</button>
+                        <input type="number" class="quantity" value="1" min="1">
+                        <button class="plus-btn">+</button>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="total" colspan="4">Total: 300.98</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button class="order_btn" >place Order</button>
+    </div>
+</body>
+</html>
