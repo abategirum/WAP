@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top_menu{
+    display: flex;
+    background-color: #800020;
+    color: #fff;
+    
+  }
+  .header_text{
+    margin-left: 25px;
+  }
+
+  .action_opitons{
+    width: 20%;
+    height: 5%;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .main_container {
+    width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between; 
+  }
+  
+  .left_container,
+  .right_container {
+    width: 48%;
+  }
+
+  .left_container {
+    margin-right: 20px;
+  }
+  
+  .right_container {
+    margin-left: 20px; 
+  }
+  
+  .input_labels {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  select {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 30px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+
+  .check_group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .check_group label {
+    margin-bottom: 5px;
+  }
+  
+
+  .state_dropdown,
+  .meal_dropdown {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .required_star {
+    color: red;
+  }
+  
+  .left_labels {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .payment_checkbox {
+    margin-right: 5px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    clear: both;
+  }
+  
+  .submit_btn,
+  .reset_btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  
+  }
+  
+  .reset_btn {
+    background-color: #f44336;
+  }
+  .check_group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+ 
+
+  .submit_btns{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+ 
+  .footer_text{
+    position: fixed;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    background-color: #800020;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    font-size: 10px;
+
+  }
+
+  .input_labels,
+select {
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.state_dropdown,
+.meal_dropdown {
+  display: inline-block;
+  width: 65%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.check_group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-bottom: 10%;
+  }
+  
+  .check_group label {
+    margin-bottom: 5px;
+  }
+  .info_text{
+    text-decoration: underline;
+  }

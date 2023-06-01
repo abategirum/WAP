@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div class="top_menu">
+        <h2 class="header_text">Workshop Registration</h2>
+        <select name="More Actions" class="action_opitons">
+            <option>International student</option>
+            <option>US citezen</option>
+        </select>
+    </div>
+    <form action="" method="" enctype="" novalidate autocomplete>
+    <div class="main_container">
+        <div class="left_container">
+            <p class="info_text">Register now while seats are available</p>
+            <label class="input_labels">First Name<span class="required_star">*</span></label>
+            <input name="first_name" type="text" required maxlength="10" pattern="[a-zA-Z]" />
+            <label class="input_labels">Last Name<span class="required_star">*</span></label>
+            <input name="last_name" type="text" required maxlength="10" pattern="[a-zA-Z]"/>
+            <label class="input_labels">Company/Institution<span class="required_star">*</span></label>
+            <input name="comp" type="text" required maxlength="10" pattern="[a-zA-Z]"/>
+            <label class="input_labels">Address<span class="required_star">*</span></label>
+            <textarea rows="20" cols="20" name="address"></textarea>
+            <label class="input_labels">City<span class="required_star">*</span></label>
+            <input name="city" type="text" required maxlength="10" pattern="[a-zA-Z]"/>
+            <label class="input_labels">State/Province/Region<span class="required_star">*</span></label>
+            <select name="state" class="state_dropdown">
+                <option>Select</option>
+                <option>country 1</option>
+
+            </select>
+            <label class="input_labels">Country<span class="required_star">*</span></label>
+            <select name="country" class="state_dropdown">
+                <option>Select</option>
+                <option>country 1</option>
+
+            </select>
+            <label class="input_labels">Email<span class="required_star">*</span></label>
+            <input name="email" type="email" required maxlength="10" />
+            <label class="input_labels">Phone Number<span class="required_star">*</span></label>
+            <input name="phone" type="email" required maxlength="10" pattern="\d"/>
+        </div>
+        <div class="left_container">
+            <p class="info_text">Lunch</p>
+            <label class="input_labels">Meal Preference</label>
+            <select name="meals" class="meal_dropdown">
+                <option value="vegiterian">Vegiterian</option>
+                <option>country 1</option>
+
+            </select>
+            <p class="info_text">Payment Detail</p>
+            <label class="input_labels">Payment Mode</label>
+            <div class="check_group">
+                <label><input class="payment_checkbox" name="cash" type="checkbox" required /> Cash</label>
+                <label><input class="payment_checkbox" name="cheque" type="checkbox" required /> Cheque</label>
+                <label><input class="payment_checkbox" name="demand draft" type="checkbox" required /> Demand draft</label>
+              </div>
+              
+
+            <label class="input_labels">DD/Cheque No.</label>
+            <input name="check_no" type="text" required maxlength="10" />
+
+            <label class="input_labels">Drawn on(Bank name)</label>
+            <input name="check_no" type="text" required maxlength="10" />
+
+            <label class="input_labels">Payable at</label>
+            <input name="check_no" type="text" required maxlength="10" />
+
+        </div>
+
+    </div>
+    <div class="submit_btns">
+        <button class="submit_btn" type="submit">Submit</button>
+        <button class="reset_btn" type="reset">Reset</button>
+    </div>
+    </form>
+    <footer>
+       <p class="footer_text">All rights Reserved. MIU 2023</p>
+    </footer>
+
+</body>
+
+</html>
