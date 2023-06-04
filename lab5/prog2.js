@@ -3,6 +3,7 @@
 
     filteredData.forEach(data => {
         console.log(data);
+        
     });
   }
 

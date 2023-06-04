@@ -2,6 +2,7 @@ function sum(numArr){
     const summedData = numArr.reduce((sum,num) => {
         if(num >= 20){
             return sum + num;
+            
         }
         return sum;
     },0);
